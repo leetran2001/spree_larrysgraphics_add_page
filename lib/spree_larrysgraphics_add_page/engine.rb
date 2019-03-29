@@ -1,8 +1,8 @@
-module SpreeMystoreSimpleSales
+module SpreeLarrysgraphicsAddPage
   class Engine < Rails::Engine
     require 'spree/core'
     isolate_namespace Spree
-    engine_name 'spree_mystore_simple_sales'
+    engine_name 'spree_larrysgraphics_add_page'
 
     # use rspec for tests
     config.generators do |g|

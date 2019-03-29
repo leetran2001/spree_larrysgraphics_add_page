@@ -1,4 +1,4 @@
-module SpreeMystoreSimpleSales
+module SpreeLarrysgraphicsAddPage
   module_function
 
   # Returns the version of the currently loaded SpreeMystoreSimpleSales as a

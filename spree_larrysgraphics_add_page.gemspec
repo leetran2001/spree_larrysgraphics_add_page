@@ -2,11 +2,11 @@
 lib = File.expand_path('../lib/', __FILE__)
 $LOAD_PATH.unshift lib unless $LOAD_PATH.include?(lib)
 
-require 'spree_mystore_simple_sales/version'
+require 'spree_larrysgraphics_add_page/version'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_mystore_simple_sales'
+  s.name        = 'spree_larrysgraphics_add_page'
   s.version     = SpreeMystoreSimpleSales.version
   s.summary     = 'Add extension summary here'
   s.description = 'Add (optional) extension description here'

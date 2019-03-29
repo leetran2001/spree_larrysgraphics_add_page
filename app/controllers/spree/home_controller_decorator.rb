@@ -1,6 +1,6 @@
 module SpreeLarrysgraphicsAddPage
 	module HomeControllerDecorator
-		def sale
+		def about
 			@products = Spree::Product.joins(:variants_including_master).where('spree_variants.sale_price is not null').distinct
 		end
 	end
