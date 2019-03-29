@@ -5,4 +5,5 @@ module SpreeMystoreSimpleSales
 		end
 	end
 end	
+# To HomeController
 Spree::HomeController.prepend SpreeMystoreSimpleSales::HomeControllerDecorator			
