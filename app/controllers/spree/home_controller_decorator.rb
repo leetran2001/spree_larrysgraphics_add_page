@@ -1,4 +1,4 @@
-module SpreeMystoreSimpleSales
+module SpreeLarrysgraphicsAddPage
 	module HomeControllerDecorator
 		def sale
 			@products = Spree::Product.joins(:variants_including_master).where('spree_variants.sale_price is not null').distinct
@@ -6,4 +6,4 @@ module SpreeMystoreSimpleSales
 	end
 end	
 # To HomeController
-Spree::HomeController.prepend SpreeMystoreSimpleSales::HomeControllerDecorator			
+Spree::HomeController.prepend SpreeLarrysgraphicsAddPage::HomeControllerDecorator			
